@@ -1,0 +1,51 @@
+{
+  "name": "react-native-dev-socket",
+  "version": "0.0.1",
+  "description": "Send events from the React Native dev server to your app (ie: custom key bindings)",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-dev-socket.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/<your_github_handle>/react-native-dev-socket",
+  "author": "<Your Name> <your_email@your_provider.com> (https://github.com/<your_github_handle>)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/<your_github_handle>/react-native-dev-socket/issues"
+  },
+  "homepage": "https://github.com/<your_github_handle>/react-native-dev-socket#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@tsconfig/react-native": "^3.0.0",
+    "metro-react-native-babel-preset": "0.76.8",
+    "react": "18.2.0",
+    "react-native": "0.72.10",
+    "typescript": "^4.9.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNDevSocketSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtndevsocket"
+    }
+  }
+}
