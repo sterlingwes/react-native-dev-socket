@@ -1,6 +1,6 @@
 {
   "name": "react-native-dev-socket",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Send events from the React Native dev server to your app (ie: custom key bindings)",
   "react-native": "js/index",
   "source": "js/index",
@@ -20,13 +20,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/<your_github_handle>/react-native-dev-socket",
-  "author": "<Your Name> <your_email@your_provider.com> (https://github.com/<your_github_handle>)",
+  "repository": "https://github.com/sterlingwes/react-native-dev-socket",
+  "author": "<Wes> <swgit@swj.io> (https://github.com/sterlingwes)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/<your_github_handle>/react-native-dev-socket/issues"
+    "url": "https://github.com/sterlingwes/react-native-dev-socket/issues"
   },
-  "homepage": "https://github.com/<your_github_handle>/react-native-dev-socket#readme",
+  "homepage": "https://github.com/sterlingwes/react-native-dev-socket#readme",
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
